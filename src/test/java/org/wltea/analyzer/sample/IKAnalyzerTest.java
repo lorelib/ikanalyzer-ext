@@ -45,7 +45,7 @@ public class IKAnalyzerTest {
     @Test
     public void testWithNoLucene() throws IOException {
         // 检索内容
-        String word = "重庆江北区重庆市江北区海尔路北门新村181号兰溪小区30幢3单元6-1";
+        String word = "广东省深圳市南山区心雨心愿b4栋404";
         StringReader reader = new StringReader(word);
         IKSegmenter ik = new IKSegmenter(reader, true);
         Lexeme lexeme = null;
