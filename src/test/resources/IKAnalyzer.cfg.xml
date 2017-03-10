@@ -3,10 +3,9 @@
 <properties>  
 	<comment>IK Analyzer 扩展配置</comment>
 	<!--用户可以在这里配置自己的扩展字典 -->
-	<!--<entry key="ext_dict">ext.dic;project.dic</entry>-->
-	<entry key="ext_dict">project.dic;省市区.dic</entry>
+	<entry key="ext_dict">provinceName.dic;cityName.dic;areaName.dic;projectName.dic</entry>
 	
 	<!--用户可以在这里配置自己的扩展停止词字典-->
-	<!--<entry key="ext_stopwords">stopword.dic;</entry> -->
+	<!--<entry key="ext_stopwords">stopword.dic;</entry>-->
 	
 </properties>
